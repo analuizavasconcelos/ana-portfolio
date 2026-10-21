@@ -1,0 +1,98 @@
+export const translations = {
+  pt: {
+    nav: { about: 'Sobre', skills: 'Habilidades', projects: 'Projetos', contact: 'Contato' },
+    hero: {
+      role: 'desenvolvedora fullstack',
+      titleTop: 'PORT',
+      titleBottom: 'FÓLIO',
+      hintDesktop: 'arraste as letras · clique no gato',
+      hintTouch: 'toque no gato',
+      catLabel: 'Fazer o gato miar',
+      meows: ['miau!', 'prrrr...', 'miau miau!', 'tem algum bug pra eu caçar?'],
+    },
+    about: {
+      tag: '// Dev Fullstack',
+      titleTop: 'Sobre',
+      titleAccent: 'mim',
+      badge: 'meow world!',
+      leadBefore: 'Sou',
+      leadAccent: 'desenvolvedora fullstack',
+      leadAfter: 'e transformo problemas reais em sistemas que funcionam, do banco de dados à interface.',
+      body: 'Estudo Sistemas de Informação no IFBA e já atuei em uma startup, acompanhando o produto do protótipo ao deploy. Meus projetos resolvem problemas reais, como o sistema que criei para o negócio da minha família (e família é o cliente mais exigente que existe). Gatos sempre caem em pé. Eu tento fazer meu código cair também.',
+    },
+    skills: {
+      tag: '// Stack',
+      titleTop: 'Minhas',
+      titleAccent: 'habilidades',
+      groups: {
+        frontend: 'Front-end',
+        backend: 'Back-end',
+        database: 'Banco de dados',
+        tools: 'Ferramentas e design',
+      },
+    },
+    projects: {
+      title: 'Projetos',
+      subtitle: 'Sistemas completos, do banco de dados à interface, para problemas reais.',
+      repo: 'Ver repositório',
+      watch: 'Assistir ao vídeo de',
+    },
+    contact: {
+      titleTop: 'Vamos',
+      titleAccent: 'Conversar?',
+      text: 'Estou aberta a novos projetos e colaborações. Se você tem uma ideia ou uma vaga em que eu possa ajudar, vamos conversar.',
+      button: 'Enviar e-mail',
+    },
+    footer: {
+      text: '© 2026 — Desenvolvido por Ana Luiza Vasconcelos',
+    },
+  },
+  en: {
+    nav: { about: 'About', skills: 'Skills', projects: 'Projects', contact: 'Contact' },
+    hero: {
+      role: 'full-stack developer',
+      titleTop: 'PORT',
+      titleBottom: 'FOLIO',
+      hintDesktop: 'drag the letters · click the cat',
+      hintTouch: 'tap the cat',
+      catLabel: 'Make the cat meow',
+      meows: ['meow!', 'purrrr...', 'meow meow!', 'got any bugs for me to hunt?'],
+    },
+    about: {
+      tag: '// Full-stack Dev',
+      titleTop: 'About',
+      titleAccent: 'me',
+      badge: 'meow world!',
+      leadBefore: "I'm a",
+      leadAccent: 'full-stack developer',
+      leadAfter: 'who turns real-world problems into systems that work, from the database to the interface.',
+      body: "I study Information Systems at IFBA and have worked at a startup, following the product from prototype to deployment. My projects solve real problems, like the system I built for my family's business (and family is the toughest client there is). Cats always land on their feet. I try to make my code do the same.",
+    },
+    skills: {
+      tag: '// Stack',
+      titleTop: 'My',
+      titleAccent: 'skills',
+      groups: {
+        frontend: 'Front-end',
+        backend: 'Back-end',
+        database: 'Databases',
+        tools: 'Tools & design',
+      },
+    },
+    projects: {
+      title: 'Projects',
+      subtitle: 'Complete systems, from the database to the interface, built for real problems.',
+      repo: 'View repository',
+      watch: 'Watch the video of',
+    },
+    contact: {
+      titleTop: "Let's",
+      titleAccent: 'Talk?',
+      text: "I'm open to new projects and collaborations. If you have an idea or a role where I can help, let's talk.",
+      button: 'Send email',
+    },
+    footer: {
+      text: '© 2026 — Built by Ana Luiza Vasconcelos',
+    },
+  },
+};
