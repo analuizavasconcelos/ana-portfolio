@@ -42,7 +42,7 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="italic text-accent mb-4 tracking-widest uppercase text-sm md:text-base text-center"
+          className="italic text-accent mb-4 tracking-widest text-xs md:text-base text-center"
         >
           Ana Vasconcelos - {t.hero.role}
         </motion.p>
